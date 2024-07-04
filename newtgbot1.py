@@ -1,7 +1,7 @@
 import telebot
 import bottokenforjust
 
-bot = telebot.TeleBot(bottokenforjust.TOKEN)
+bot = telebot.TeleBot(yourtoken.TOKEN)
 
 @bot.message_handler(content_types=['text'])
 def lalala(message):
